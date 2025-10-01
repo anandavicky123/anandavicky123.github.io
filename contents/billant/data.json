@@ -1,8 +1,8 @@
 {
   "title": "Billant",
-  "releaseDate": "March 15, 2024",
+  "releaseDate": "July 20, 2023",
   "description": "A scientific calculator app with advanced math features and clean UI.",
-  "techStack": ["Android", "Java"],
+  "techStack": ["React Native", "TypeScript", "JSX"],
   "buttonText": "Get it on Google Play",
   "buttonLink": "https://play.google.com/store/apps/details?id=com.softgasm.billant",
   "type": "mobile"

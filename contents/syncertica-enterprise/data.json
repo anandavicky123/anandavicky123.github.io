@@ -1,32 +1,20 @@
 {
   "title": "Syncertica Enterprise",
-  "releaseDate": "December 2024",
+  "releaseDate": "27 September, 2025",
   "description": "A comprehensive enterprise-grade business management platform designed for large organizations. Features advanced analytics, workflow automation, multi-tenant architecture, and seamless integration capabilities. Built with scalability and security in mind to handle thousands of concurrent users.",
   "techStack": [
-    "React",
+    "React (Next.js)",
     "Node.js",
     "PostgreSQL",
-    "Redis",
+    "Tailwind CSS",
     "Docker",
-    "Kubernetes",
     "TypeScript",
-    "GraphQL",
     "AWS",
-    "Microservices"
+    "Terraform",
+    "GitHub Actions",
+    "Github Repository"
   ],
-  "buttonText": "View Enterprise Demo",
-  "buttonLink": "#",
-  "features": [
-    "Multi-tenant architecture",
-    "Advanced analytics dashboard",
-    "Workflow automation",
-    "Role-based access control",
-    "Real-time notifications",
-    "API integrations",
-    "Data export/import",
-    "Audit logging"
-  ],
-  "status": "Production",
-  "year": "2024",
+  "buttonText": "Visit Website",
+  "buttonLink": "https://syncertica-enterprise.vercel.app",
   "type": "website"
 }

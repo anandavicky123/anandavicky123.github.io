@@ -1,9 +1,9 @@
 {
-  "title": "JDIH",
-  "releaseDate": "March 15, 2024",
-  "description": "A scientific calculator app with advanced math features and clean UI.",
-  "techStack": ["Android", "Java"],
-  "buttonText": "Get it on Google Play",
+  "title": "Legal Information System (JDIH) of Siak Regency",
+  "releaseDate": "2022",
+  "description": "A legal information system for Siak Regency, built with simple Bootstrap with Google Maps API. It provides access to a comprehensive archive of legal documents spanning from the colonial era to the present day.",
+  "techStack": ["Bootstrap", "JavaScript", "Google Maps API"],
+  "buttonText": "Visit Website",
   "buttonLink": "http://jdih.siakkab.go.id/",
   "type": "website"
 }

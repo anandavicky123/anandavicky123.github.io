@@ -1,30 +1,17 @@
 {
   "title": "Syncertica Vitalis Lite",
-  "releaseDate": "November 2024",
-  "description": "A lightweight health and wellness tracking application designed for everyday users. Features intuitive UI, offline-first functionality, and smart health insights. Perfect for users who want to monitor their daily activities, nutrition, and wellness goals without complexity.",
+  "releaseDate": "September 30, 2025",
+  "description": "A healthcare web app. It features an AI-powered symptom checker and a personal Electronic Health Record (EHR) system. It helps users check symptoms, receive possible diagnoses, and track their health history.",
   "techStack": [
-    "React Native",
-    "SQLite",
+    "Vue.js (Nuxt.js)",
+    "MongoDB",
     "TypeScript",
-    "Expo",
-    "Firebase",
-    "Chart.js",
-    "AsyncStorage",
-    "Geolocation API"
+    "GraphQL",
+    "Google AI Studio (Gemini)",
+    "Atlas Search",
+    "Tailwind CSS"
   ],
-  "buttonText": "Try Beta Version",
-  "buttonLink": "#",
-  "features": [
-    "Activity tracking",
-    "Nutrition logging",
-    "Sleep monitoring",
-    "Goal setting",
-    "Progress visualization",
-    "Offline synchronization",
-    "Health insights",
-    "Custom reminders"
-  ],
-  "status": "Beta",
-  "year": "2024",
+  "buttonText": "Visit Website",
+  "buttonLink": "https://syncertica-vitalis-lite.vercel.app",
   "type": "website"
 }
