@@ -1,6 +1,5 @@
 {
   "title": "Syncertica Enterprise",
-  "category": "website",
   "description": "A comprehensive enterprise-grade business management platform designed for large organizations. Features advanced analytics, workflow automation, multi-tenant architecture, and seamless integration capabilities. Built with scalability and security in mind to handle thousands of concurrent users.",
   "techStack": [
     "React",
@@ -25,5 +24,6 @@
     "Audit logging"
   ],
   "status": "Production",
-  "year": "2024"
+  "year": "2024",
+  "type": "website"
 }
