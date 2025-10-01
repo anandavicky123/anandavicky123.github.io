@@ -122,6 +122,19 @@ body, html {
   margin-bottom: 0.5rem;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.project-logo {
+  max-width: 120px;
+  max-height: 60px;
+  object-fit: contain;
+  border-radius: 8px;
+}
+
 .portfolio-box .meta {
   font-size: 0.9rem;
   color: #aaa;

@@ -1,7 +1,7 @@
 {
   "title": "CalcuLatto",
   "releaseDate": "March 15, 2024",
-  "description": "A scientific Java Android calculator (100+ calculators & converters) with Firebase analytics, Appodeal ads and Google Play subscription billing, focused on physics, math, health, chemistry and unit conversions.",
+  "description": "A Java Android calculator (100+ calculators & converters) with Firebase analytics, Appodeal ads and Google Play subscription billing, focused on physics, math, health, chemistry and unit conversions.",
   "techStack": ["Android", "Java"],
   "buttonText": "Get it on Google Play",
   "buttonLink": "https://play.google.com/store/apps/details?id=com.softgasm.calculatto",
