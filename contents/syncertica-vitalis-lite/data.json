@@ -1,5 +1,6 @@
 {
   "title": "Syncertica Vitalis Lite",
+  "releaseDate": "November 2024",
   "description": "A lightweight health and wellness tracking application designed for everyday users. Features intuitive UI, offline-first functionality, and smart health insights. Perfect for users who want to monitor their daily activities, nutrition, and wellness goals without complexity.",
   "techStack": [
     "React Native",
@@ -11,6 +12,8 @@
     "AsyncStorage",
     "Geolocation API"
   ],
+  "buttonText": "Try Beta Version",
+  "buttonLink": "#",
   "features": [
     "Activity tracking",
     "Nutrition logging",

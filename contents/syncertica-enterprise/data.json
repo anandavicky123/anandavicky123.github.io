@@ -1,5 +1,6 @@
 {
   "title": "Syncertica Enterprise",
+  "releaseDate": "December 2024",
   "description": "A comprehensive enterprise-grade business management platform designed for large organizations. Features advanced analytics, workflow automation, multi-tenant architecture, and seamless integration capabilities. Built with scalability and security in mind to handle thousands of concurrent users.",
   "techStack": [
     "React",
@@ -13,6 +14,8 @@
     "AWS",
     "Microservices"
   ],
+  "buttonText": "View Enterprise Demo",
+  "buttonLink": "#",
   "features": [
     "Multi-tenant architecture",
     "Advanced analytics dashboard",
