@@ -1,0 +1,29 @@
+{
+  "title": "Syncertica Enterprise",
+  "category": "website",
+  "description": "A comprehensive enterprise-grade business management platform designed for large organizations. Features advanced analytics, workflow automation, multi-tenant architecture, and seamless integration capabilities. Built with scalability and security in mind to handle thousands of concurrent users.",
+  "techStack": [
+    "React",
+    "Node.js",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "Kubernetes",
+    "TypeScript",
+    "GraphQL",
+    "AWS",
+    "Microservices"
+  ],
+  "features": [
+    "Multi-tenant architecture",
+    "Advanced analytics dashboard",
+    "Workflow automation",
+    "Role-based access control",
+    "Real-time notifications",
+    "API integrations",
+    "Data export/import",
+    "Audit logging"
+  ],
+  "status": "Production",
+  "year": "2024"
+}

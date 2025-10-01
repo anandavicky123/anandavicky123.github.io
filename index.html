@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Syncertica - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Tailwind via CDN for utility classes -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+  <div class="main-container">
+    <div class="main-content">
+      <div class="left-panel" id="leftPanel">
+        <div class="left-content">
+          <h1 class="business-name">SYNCERTICA</h1>
+          <div class="toggle-buttons">
+  <button class="toggle-btn active" id="webToggle" onclick="toggleCategory('website')">💻 Website</button>
+  <button class="toggle-btn active" id="mobileToggle" onclick="toggleCategory('mobile')">📱 Mobile</button>
+</div>
+          <ul class="portfolio-list">
+            <li onclick="showPortfolio('calculatto', this)">CalcuLatto</li>
+            <li onclick="showPortfolio('billant', this)">Billant</li>
+            <li onclick="showPortfolio('syncertica-enterprise', this)">Syncertica Enterprise</li>
+            <li onclick="showPortfolio('syncertica-vitalis-lite', this)">Syncertica Vitalis Lite</li>
+            <li class="separator">Other project</li>
+            <li onclick="showPortfolio('jdih', this)">JDIH</li>
+          </ul>
+        </div>
+      </div>
+      <div class="right-panel" id="rightPanel">
+        <div id="portfolioContent" class="portfolio-box">
+          <!-- Dynamic content will load here -->
+        </div>
+      </div>
+    </div>
+    
+
+    <div class="bottom-bar">
+      <p>Powered by:</p>
+      <div class="external-logos flex items-center">
+        <!-- GitHub logo (white background container for transparent PNG) -->
+        <span class="inline-block bg-white rounded-md p-1">
+          <picture>
+            <source srcset="assets/GitHub.webp" type="image/webp" />
+            <img src="assets/GitHub.png" alt="GitHub" class="block w-[100px] h-[40px] object-contain" />
+          </picture>
+        </span>
+        <!-- Vercel logo (white background container to match GitHub) -->
+        <span class="inline-block bg-white rounded-md p-1 ml-2">
+          <img src="https://www.drupal.org/files/vercel-logotype-dark.png" alt="Vercel" class="block w-[100px] h-[40px] object-contain" />
+        </span>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
