@@ -145,7 +145,6 @@ body, html {
 .portfolio-box .description {
   margin-bottom: 1rem;
   line-height: 1.5;
-  padding-right: 330px;
 }
 
 .media {
@@ -154,7 +153,6 @@ body, html {
   margin-bottom: 1rem;
   align-items: flex-start;
   justify-content: space-between;
-  padding-right: 330px;
 }
 
 .screenshot-container {
@@ -164,10 +162,9 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: absolute;
-  right: 1.5rem;
-  top: 50%;
-  transform: translateY(-50%);
+  float: right;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
 }
 
 .screenshot-container img {
@@ -191,11 +188,21 @@ body, html {
 }
 
 .tech-stack span {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   margin-right: 10px;
+  margin-bottom: 8px;
   padding: 5px 10px;
   background: rgba(255,255,255,0.1);
   border-radius: 4px;
+}
+
+.tech-icon {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+  filter: brightness(1.2);
 }
 
 .visit-btn {

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Syncertica - Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <!-- Tailwind via CDN for utility classes -->
@@ -15,9 +15,9 @@
         <div class="left-content">
           <h1 class="business-name">SYNCERTICA</h1>
           <div class="toggle-buttons">
-  <button class="toggle-btn active" id="webToggle" onclick="toggleCategory('website')">💻 Website</button>
-  <button class="toggle-btn active" id="mobileToggle" onclick="toggleCategory('mobile')">📱 Mobile</button>
-</div>
+            <button class="toggle-btn active" id="webToggle" onclick="toggleCategory('website')">💻 Website</button>
+            <button class="toggle-btn active" id="mobileToggle" onclick="toggleCategory('mobile')">📱 Mobile</button>
+          </div>
           <ul class="portfolio-list">
             <li onclick="showPortfolio('calculatto', this)">CalcuLatto</li>
             <li onclick="showPortfolio('billant', this)">Billant</li>
@@ -34,7 +34,6 @@
         </div>
       </div>
     </div>
-    
 
     <div class="bottom-bar">
       <p>Powered by:</p>
@@ -45,6 +44,10 @@
             <source srcset="assets/GitHub.webp" type="image/webp" />
             <img src="assets/GitHub.png" alt="GitHub" class="block w-[100px] h-[40px] object-contain" />
           </picture>
+        </span>
+        <!-- Google Play logo (white background container) -->
+        <span class="inline-block bg-white rounded-md p-1 ml-2">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Google_Play_2022_logo.svg/330px-Google_Play_2022_logo.svg.png" alt="Google Play" class="block w-[100px] h-[40px] object-contain" />
         </span>
         <!-- Vercel logo (white background container to match GitHub) -->
         <span class="inline-block bg-white rounded-md p-1 ml-2">
