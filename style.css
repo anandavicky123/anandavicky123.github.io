@@ -145,6 +145,7 @@ body, html {
 .portfolio-box .description {
   margin-bottom: 1rem;
   line-height: 1.5;
+  padding-right: 330px;
 }
 
 .media {
@@ -153,6 +154,7 @@ body, html {
   margin-bottom: 1rem;
   align-items: flex-start;
   justify-content: space-between;
+  padding-right: 330px;
 }
 
 .screenshot-container {
