@@ -116,29 +116,11 @@ body, html {
   padding: 1.5rem;
   width: 90%;
   max-width: 750px;
+  position: relative;
 }
 
 .portfolio-box h2 {
   margin-bottom: 0.5rem;
-}
-
-.content-wrapper {
-  display: flex;
-  gap: 1.5rem;
-  align-items: flex-start;
-}
-
-.left-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-}
-
-.right-content {
-  flex-shrink: 0;
-  display: flex;
-  align-items: flex-start;
-  padding-top: 0;
 }
 
 .logo-container {
@@ -165,6 +147,14 @@ body, html {
   line-height: 1.5;
 }
 
+.media {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .screenshot-container {
   border-radius: 8px;
   background: #222;
@@ -172,6 +162,10 @@ body, html {
   display: flex;
   align-items: center;
   justify-content: center;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .screenshot-container img {
