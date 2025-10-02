@@ -1,8 +1,8 @@
 {
   "title": "Billant",
   "releaseDate": "July 20, 2023",
-  "description": "A scientific calculator app with advanced math features and clean UI.",
-  "techStack": ["React Native", "TypeScript", "JSX"],
+  "description": "Billant is a smart financial companion that helps you track income and expenses, set saving goals, manage shopping lists, perform business calculations, and convert currencies in real time. Built with React Native and TypeScript for speed, reliability, and cross-platform support.",
+  "techStack": ["React Native", "TypeScript", "JSX", "ExchangeRate API"],
   "buttonText": "Get it on Google Play",
   "buttonLink": "https://play.google.com/store/apps/details?id=com.softgasm.billant",
   "type": "mobile"

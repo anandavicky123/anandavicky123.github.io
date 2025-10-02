@@ -1,7 +1,7 @@
 {
   "title": "Syncertica Enterprise",
   "releaseDate": "27 September, 2025",
-  "description": "A comprehensive enterprise-grade business management platform designed for large organizations. Features advanced analytics, workflow automation, multi-tenant architecture, and seamless integration capabilities. Built with scalability and security in mind to handle thousands of concurrent users.",
+  "description": "An enterprise management platform with dedicated dashboards for managers and workers. It streamlines project tracking, task management, GitHub integration, infrastructure setup, and real-time collaboration through chat, sticky notes, calendar, and notifications.",
   "techStack": [
     "React (Next.js)",
     "Node.js",

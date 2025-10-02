@@ -94,12 +94,11 @@ function showPortfolio(name, element) {
     .then(res => res.json())
     .then(data => {
       const screenshotClass = data.type === "mobile" ? "mobile" : "website";
-      const logoExtension = name === 'calculatto' ? 'webp' : 'png';
 
       content.innerHTML = `
         <h2>${data.title}</h2>
         <div class="logo-container">
-          <img src="contents/${name}/logo.${logoExtension}?v=${Date.now()}" alt="${data.title} Logo" class="project-logo" />
+          <img src="contents/${name}/logo.webp?v=${Date.now()}" alt="${data.title} Logo" class="project-logo" />
         </div>
         <div class="meta"><strong>Release date:</strong> ${data.releaseDate}</div>
         <div class="description">${data.description}</div>
