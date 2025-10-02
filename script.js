@@ -96,23 +96,24 @@ function showPortfolio(name, element) {
       const screenshotClass = data.type === "mobile" ? "mobile" : "website";
 
       content.innerHTML = `
-        <h2>${data.title}</h2>
-        <div class="logo-container">
-          <img src="contents/${name}/logo.webp?v=${Date.now()}" alt="${data.title} Logo" class="project-logo" />
-        </div>
-        <div class="meta"><strong>Release date:</strong> ${data.releaseDate}</div>
-        <div class="description">${data.description}</div>
-
-        <div class="media">
-          <div>
+        <div class="content-wrapper">
+          <div class="left-content">
+            <h2>${data.title}</h2>
+            <div class="logo-container">
+              <img src="contents/${name}/logo.webp?v=${Date.now()}" alt="${data.title} Logo" class="project-logo" />
+            </div>
+            <div class="meta"><strong>Release date:</strong> ${data.releaseDate}</div>
+            <div class="description">${data.description}</div>
             <div class="tech-stack">
               <strong>Tech stacks:</strong><br>
               ${data.techStack.map(t => `<span>${t}</span>`).join('')}
             </div>
             <a class="visit-btn" href="${data.buttonLink}" target="_blank">${data.buttonText}</a>
           </div>
-          <div class="screenshot-container ${screenshotClass}">
-            <img src="contents/${name}/screenshot.webp?v=${Date.now()}" alt="Screenshot" />
+          <div class="right-content">
+            <div class="screenshot-container ${screenshotClass}">
+              <img src="contents/${name}/screenshot.webp?v=${Date.now()}" alt="Screenshot" />
+            </div>
           </div>
         </div>
       `;
